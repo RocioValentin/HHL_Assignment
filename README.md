@@ -165,15 +165,15 @@ For this tutorial we will use a small repo that relies on the pre-version of Qis
 
 Our first step is to activate our environment. Once you have activated your environment, we install the above packages with pip:
 
-```pip install qiskit==0.40.0```
+  ```pip install qiskit==0.40.0```
 
 ## 4.3 Setting up IJupyter kernels
 
 We will use IPython’s (Interactive Python) iPyKernel as Jupyter kernel in Jupyter. We need these packages to work with Jupyter notebooks. We will install them through pip in our conda environment. Because conda [does not automatically set environments up as jupyter kernels](http://ipython.readthedocs.io/en/stable/install/kernel_install.html#kernels-for-different-environments) (see also [this issue](https://github.com/jupyter/jupyter/issues/245)), we manually add iPyKernel to our environment after installation:
 
-```pip install ipykernellpython -m ipykernel install --user --name .conda --display-name "Python (.conda)"```
-
-```pip install matplotlib, pylatexenc```
+  ````pip install ipykernel````
+  ````python -m ipykernel install --user --name .conda --display-name "Python (.conda)"```
+  ````pip install matplotlib, pylatexenc```
 
 #  5 Try the tutorials
 
