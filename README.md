@@ -175,7 +175,7 @@ We will use IPython’s (Interactive Python) iPyKernel as Jupyter kernel in Jupy
   
   ```python -m ipykernel install --user --name .conda --display-name "Python (.conda)"```
 
-  ```pip install matplotlib pylatexenc```
+  ```pip install matplotlib pylatexenc ipywidgets```
 
 #  5 Try the tutorials
 
