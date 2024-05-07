@@ -1,6 +1,8 @@
 # Export VS Code packages on PowerShell using code --list-extensions | % { "code --install-extension $_" }
 # Install all of the VS Code extensions below on bash or git bash with bash my_vscode_extensions.sh
 
+# ADDING A COMMENT
+
 code --install-extension codezombiech.gitignore
 code --install-extension ctctklfh.conda-env-activator
 code --install-extension donjayamanne.git-extension-pack
