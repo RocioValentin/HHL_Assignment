@@ -1,4 +1,4 @@
-# Tutorial Introduction to Quantum Artificial Intelligence: quantum algorithms for linear systems of equations and data fitting
+# Introduction to Quantum Artificial Intelligence
 
 # Jara Juana Bermejo Vega
 
@@ -31,8 +31,14 @@
 
 #  2 About
 
-This repository contains materials used in a practical lecture for a course on Quantum Machine Learning and Artificial Intelligence, taught at the UIMP Quantum Science and Technology Master. The goal of the tutorial is to gain practical knowledge about the quantum algorithm for solving linear systems of equations and applications of it for data fitting. We will also learn to set-up a developer environment and gain familiarity with QisKit, Visual Studio Code, Python Anaconda (miniconda), Python environments, Jupyter and GitHub.
+This repository contains materials used in a practical lecture for a course on Quantum Machine Learning and Artificial Intelligence, taught at the UIMP Quantum Science and Technology Master. The repository contains Jupyter notebooks used in the practical tutorials of the course.
 
+The first part of the repository introduces the student to programming tools (Python, Pythong environments, Visual Studio Code) that are useful for data analysis and quantum machine learning. It shows how to set-up a developer environment and gain familiarity with QisKit, Visual Studio Code, Python Anaconda (miniconda), Python environments, Jupyter and GitHub.
+
+
+The quantum notebooks are organized as follows:
+
+Linear systems of equations and Data Fitting. A tutorial to gain practical knowledge about the quantum algorithm for solving linear systems of equations and applications of it for data fitting. 
 The lecture is divided in two tutorials, with files contained in the **tutorials** folder:
 
 1. **Tutorial 1:** **quantum linear solvers.** Gives an introduction to the quantum algorithm for solving linear equations. The tutorial is based on a [chapter of the QisKit Textbook](https://github.com/Qiskit/textbook/blob/main/notebooks/ch-applications/hhl_tutorial.ipynb).
@@ -144,25 +150,30 @@ Once you have a GitHub account, [you should link VS Code to your GitHub account 
 
 ***Windows users*** should[install git through Chocolatey](https://community.chocolatey.org/packages/git).
 
-# 4 Quantum Linear Solvers on QisKit
+# 4 Installing Python packages, Jupyter and QisKit
 
-## 4.1 Setting up our Qiskit Environment
+## 4.1 Create a Python environment
 
-We recommend that you use Python virtual environments (opens in a new tab) to separate Qiskit from other applications. To this end, access your command palette and create a conda environment.
+We recommend that you use Python virtual environments (opens in a new tab) to separate Python packages used in this lecture from other Pyton installations in your computer. To this end, access your command palette and create a conda environment.
 ![](./pasted+image+0+6.png)![](./pasted+image+0+7.png)Once created, we will activate it using the command **conda activate .conda**
 
-## 4.2 Installing Qiskit and Python packages
+## 4.2 Installing Python packages
 
-For this tutorial we will use a small repo that relies on the pre-version of QisKit 0.40.0 and the following dependencies.
+For the the exercises we will need to install the following Python packages that are used for scientific computing tasks:
 
-* qiskit 0.40.0
 * numpy
 * scipy
 * matplotlib
 * ipykernel
 
-### 4.2.1 Installing QisKit
+Our first step is to activate our environment. Once you have activated your environment, we install the above packages with pip
 
+  ```pip install packages```
+
+
+* qiskit 0.40.0
+
+In the HHL tutorials, we will use qiskit qiskit==0.40.0. For installing this package, use
 Our first step is to activate our environment. Once you have activated your environment, we install the above packages with pip:
 
   ```pip install qiskit==0.40.0```
