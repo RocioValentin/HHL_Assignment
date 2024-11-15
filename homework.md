@@ -1,6 +1,6 @@
 
 
-# Assignment
+# Assignment HHL
 
 In this exercise we will create a GitHub repository for your project. Clone it into your personal computer and install the required packages to run the quantum lineary systems algorithm tutorial file. Run the Jupyter notebook "hhl_tutorial.ipnb". Make sure it runs without errors. Complete the exercises below in the Jupyter tutorial and submit your GitHub repository back to the instructor at jbermejovega at go ugr dot es.
 
