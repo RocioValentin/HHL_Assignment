@@ -188,6 +188,42 @@ We will use IPython’s (Interactive Python) iPyKernel as Jupyter kernel in Jupy
 
   ```pip install matplotlib pylatexenc ipywidgets```
 
+  ## 4.4. Python tools for scientific computing
+
+We recommend Python as a high-level language for common scientific tasks and coding exercises during the course. Python is an interpreted language, which currently provides fairly efficient open-source libraries for a wide range of problems such as numpy, scipy and and simpy. 
+
+Below, we provide a list of coding resources. For coding resources in Spanish, we recommend using a VS Code automatic translator addon: there are multiple VS Code addons that support automatic translation of code, including common tools such as Google Translate and DeepL, which can be integrated with Jupyter Notebooks (see e.g. [Vscode Google Translate](https://marketplace.visualstudio.com/items?itemName=funkyremi.vscode-google-translate)
+
+
+* [**González-Rodelas' course on Pyton for scientific computing**](https://github.com/prodelas/PyConES2022.git). An introduction to Python for scientific computing with multiple notebooks hosted in GitHub. [Dependencies](https://www.ugr.es/~prodelas/ftp/TallerPython.html): you should have installed on your laptop: Python and Jupyter Notebook and Python modules SymPy, NumPy, Matplotlib, SciPy and Pandas. (Using conda or pip.)
+
+
 #  5 Try the tutorials
 
 Congrats! You are done setting up the environment. You can now check the tutorials in the tutorial folder! :)
+
+# 6 Python for Scientific computing
+
+This unit contains practical materials that will be used in the first online tutorial of this Quantum Machine learning course. This will be a practical hands-on tutorial to provide the students with basic data analysis tools that are essential to analyze statistical errors in machine learning algorithms (classical or quantum). The student will also gain hands-on experience on programming tools for working with standard data analysis and machine learning libraries. 
+
+To follow this practical tutorial, the student will not need prior knowledge of quantum computing nor quantum machine learning. A separate theory video will be issued to introduce theoretical material on quantum machine learning and give an general overview of this field. This video can be watched at any time, before or after the tutorial, since we will not need it for the exercises.
+
+What it might be convenient is to set-up your personal computer before coming to the tutorial. There are certain software packages that we will use and you may install following the installation guides below. This might be convenient for those students that have none or little prior programming experience (see a list of tools that we will use below).
+
+If you are inexperienced with setting up programming environments, we recommend to uninstall pre-existing programming environments from your personal computer (in particular, prior Python installations) and reinstall them using our installation guide. We recommend to use Python environments and choco (Windows), brew (MacOs) or the Linux package manager.
+
+Content of this tutorial
+
+In this online tutorial, we will review the theory of randomized classical and quantum algorithms. We will learn how to calculate classical and quantum expectation values. To this end, we will review concentration inequalities such as Hoeffding and Chebyshev inequalities (Textbook, Section 2.3). We will use concentration inequalities to bound statistical errors of random variables and quantum observables. We will apply these methods to the estimation of derivatives, which is important in variational quantum algorithms and parametrized quantum circuits. We will gain practice through simple mathematical exercises. We will follow Alessandro Luongo's open textbook on Quantum algorithms for data analysis.  https://quantumalgorithms.org/index.html
+
+During the practical tutorial, we will also gain hands-on experience with programming tools (Python, Pythong environments, Visual Studio Code) that are useful for data analysis and quantum machine learning. We will learn how to install important Python pacakges for scientific computing, such as numpy, scipy or matplotlib. We will review the basic software tools SSH, GitHub and Jupyter notebooks, which are useful for setting up collaborative remote repositories to share code and data. For this part we will follow the notebooks on Bermejo-Vega's GitHub repositories.
+https://github.com/jbermejovega/UIMPIntroToQuantumAI
+https://github.com/jbermejovega/fisicacomputacional/tree/main/Leccion_Python
+
+For gaining practice with statistical errors, concentration bounds, confidence intervals, we will follow Tal Daniel's course on Unpervised Learning and Data Analysis:
+https://github.com/taldatech/ee046202-unsupervised-learning-data-analysis/blob/master/ee046202_tutorial_00_probability_optimization.ipynb
+https://github.com/taldatech/ee046202-unsupervised-learning-data-analysis/blob/master/ee046202_tutorial_01_classic_statistics_point_estimation.ipynb
+https://github.com/taldatech/ee046202-unsupervised-learning-data-analysis/blob/master/ee046202_tutorial_02_classic_statistics_confidence_intervals.ipynb
+
+In the folder associated to the UD 1 are included the textbook we use in PDF and some user guides / notes about the SSH and git.translator software tools.
+
