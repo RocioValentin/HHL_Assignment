@@ -1,3 +1,6 @@
+##  HHL Assignment
+All the tasks were aplied in the hhl_tutorial.ipynb
+
 # Introduction to Quantum Artificial Intelligence
 
 # Jara Juana Bermejo Vega
