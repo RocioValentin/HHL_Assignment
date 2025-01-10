@@ -1,3 +1,6 @@
+##  HHL Assignment
+All the tasks were aplied in the hhl_tutorial.ipynb
+
 # The HHL Quantum Algorithm Applied to Data Fitting
 
 The HHL (Harrow-Hassidim-Lloyd) algorithm is a quantum algorithm that can solve linear systems of equations exponentially faster than classical algorithms. This repository has a sandbox for exploring the HHL algorithm as well an application of the HHL algorithm to a data-fitting problem. 
